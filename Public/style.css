@@ -1,41 +1,41 @@
 /* Graph image */
 .col-md-9.move-right {
-    margin-left: 1050px;
-    margin-top: -630px;
-  }
-  
-  .col-md-3 img {
-    max-width: 400%;
-  }
-  
-  /* Sidebar */
-  .sidebar {
-    width: 250px;
-    height: 100%;
-    position: fixed;
-    top: 58px; /* Adjust this value based on your navbar height */
-    left: 0;
-    background-color: #343a40; /* Dark color for sidebar */
-    padding-top: 20px;
-  }
-  
-  .sidebar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .sidebar ul li {
-    padding: 10px 20px;
-  }
-  
-  .sidebar ul li a {
-    text-decoration: none;
-    color: #fff; /* White color for sidebar links */
-    font-size: 18px;
-    display: block;
-  }
-  
-  .sidebar ul li a:hover {
-    background-color: #495057; /* Darker color on hover */
-  }
+  margin-left: 1050px;
+  margin-top: -630px;
+}
+
+.col-md-3 img {
+  max-width: 400%;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 58px; /* Adjust this value based on your navbar height */
+  left: 0;
+  background-color: #343a40; /* Dark color for sidebar */
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 20px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #fff; /* White color for sidebar links */
+  font-size: 18px;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #495057; /* Darker color on hover */
+}
