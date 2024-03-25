@@ -1,3 +1,7 @@
+body {
+  background-color: #f7f8fc; /* Light gray background for the entire page */
+}
+
 /* Graph image */
 .col-md-9.move-right {
   margin-left: 1050px;
@@ -38,4 +42,33 @@
 
 .sidebar ul li a:hover {
   background-color: #495057;
+}
+
+/*box */
+.summary-box {
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff; /* White background for the box */
+  text-align: center;
+}
+
+.summary-box h4 {
+  margin-bottom: 5px;
+  color: #6c757d; /* Gray color for the text */
+}
+
+.summary-box p {
+  margin: 0;
+  font-size: 18px;
+  color: #6c757d; /* Gray color for the text */
+}
+
+.summary-box .number {
+  font-size: 40px; /* Larger font size for the number */
+  font-weight: bold; /* Bold font for the number */
+  display: block; /* Ensures each number is on a separate line */
+  margin-bottom: 5px; /* Adds space between each number and the text */
+  color: #000; /* Black color for the number */
 }
