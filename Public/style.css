@@ -44,7 +44,7 @@ body {
   background-color: #495057;
 }
 
-/*box */
+/*summary-box */
 .summary-box {
   border: 1px solid #ced4da;
   border-radius: 10px;
@@ -71,4 +71,74 @@ body {
   display: block; /* Ensures each number is on a separate line */
   margin-bottom: 5px; /* Adds space between each number and the text */
   color: #000; /* Black color for the number */
+}
+
+/*right-box */
+.right-box {
+  border: 1px solid #ced4da;
+  background-color: #fff; /* White background for the box */
+  text-align: center;
+  padding: 17px;
+}
+
+.right-box p {
+  margin: 0;
+  font-size: 18px;
+  color: #6c757d; /* Gray color for the text */
+}
+
+.right-box .number {
+  font-size: 24px; /* Larger font size for the number */
+  font-weight: bold; /* Bold font for the number */
+  display: block; /* Ensures each number is on a separate line */
+  margin-bottom: 5px; /* Adds space between each number and the text */
+  color: #000; /* Black color for the number */
+}
+
+/*section-box */
+.section-box {
+  border: 1px solid #ced4da;
+  background-color: #fff; /* White background for the box */
+  padding: 17px;
+  border-radius: 10px;
+}
+
+.image-column {
+  background: url("Public/Images/Untitledsss.png") center center no-repeat;
+  background-size: cover;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.image-column {
+  display: grid;
+  align-items: end; /* Align image to the bottom of the column */
+  padding-right: 0; /* Remove right padding */
+}
+
+.content-column {
+  display: grid;
+  align-items: stretch; /* Stretch content to fill the height */
+  padding-left: 0; /* Remove left padding */
+}
+
+/* Custom badge colors */
+.badge-urgent {
+  background-color: #fec400;
+  color: black; /* Ensure text is visible on the yellow background */
+}
+
+.badge-new {
+  background-color: #29cc97;
+}
+
+.badge-default {
+  background-color: #f0f1f7;
+}
+
+.text-right {
+  text-align: right;
 }
