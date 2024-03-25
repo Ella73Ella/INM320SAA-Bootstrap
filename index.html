@@ -34,7 +34,6 @@
                 </ul>
             </div>
         </nav>
-
     <!-- Sidebar -->
     <nav class="sidebar">
       <ul>
@@ -48,64 +47,83 @@
           <li><a href="#">Subscription</a></li>
       </ul>
     </nav>
-
     <div class="container mt-4">
         <div id="firstPage">
             <div class="row mb-4">
                 <!-- Summary Columns -->
-                <div class="col-md-3">
-                    <h4>Unresolved</h4>
-                    <p>60</p>
+                <div class="col">
+                    <div class="summary-box">
+                        <h4>Unresolved</h4>
+                        <p><span class="number">60</span></p>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <h4>Overdue</h4>
-                    <p>16</p>
+                <div class="col">
+                    <div class="summary-box">
+                        <h4>Overdue</h4>
+                        <p><span class="number">16</span></p>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <h4>Open</h4>
-                    <p>43</p>
+                <div class="col">
+                    <div class="summary-box">
+                        <h4>Open</h4>
+                        <p><span class="number">43</span></p>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <h4>On Hold</h4>
-                    <p>64</p>
+                <div class="col">
+                    <div class="summary-box">
+                        <h4>On Hold</h4>
+                        <p><span class="number">64</span></p>
+                    </div>
                 </div>
             </div>
-            <!-- Image and Content Row -->
-            <div class="row mb-4">
+          <!-- Image and Content Row -->
+            <div class="row mb-4 align-items-start no-gutters">
                 <!-- Image Column -->
-                <div class="col-md-3">
-                    <img src="Public/Images/Untitledsss.png" alt="Today's Trends Image" class="img-fluid">
+                <div class="col-8 pr-0 image-column">
+                    <div class="right-box">
+                        <img src="Public/Images/Untitledsss.png" alt="Today's Trends Image" class="img-fluid">
+                    </div>
                 </div>
                 <!-- Content Column -->
-                <div class="col-md-9">
+                <div class="col align-self-stretch">
                     <div class="row">
                         <div class="col">
-                            <p>Resolved</p>
-                            <h4>449</h4>
+                            <div class="right-box">
+                                <p>Resolved</p>
+                                <p><span class="number">449</span></p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p>Received</p>
-                            <h4>426</h4>
+                            <div class="right-box">
+                                <p>Received</p>
+                                <p><span class="number">426</span></p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p>Average first response time</p>
-                            <h4>33m</h4>
+                            <div class="right-box">
+                                <p>Average first response time</p>
+                                <p><span class="number">33m</span></p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p>Average response time</p>
-                            <h4>3h 8m</h4>
+                            <div class="right-box">
+                                <p>Average response time</p>
+                                <p><span class="number">3h 8m</span></p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <p>Resolution within SLA</p>
-                            <h4>94%</h4>
+                            <div class="right-box">
+                                <p>Resolution within SLA</p>
+                                <p><span class="number">94%</span></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,58 +131,69 @@
             <div class="row mt-4">
                 <!-- Section 1 -->
                 <div class="col-md-6">
-                    <h4>Unresolved tickets</h4>
-                    <p><a href="#">View details</a></p>
-                    <p>Group: support</p>
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <td>Waiting on Feature Request</td>
-                                <td>4238</td>
-                            </tr>
-                            <tr>
-                                <td>Awaiting customer response</td>
-                                <td>1005</td>
-                            </tr>
-                            <tr>
-                                <td>Awaiting developer fix</td>
-                                <td>914</td>
-                            </tr>
-                            <tr>
-                                <td>Pending</td>
-                                <td>281</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="section-box">
+                        <table class="table">
+                            <tbody>
+                                <tr class="border-top-0">
+                                    <td class="border-top-0">Unresolved tickets</td>
+                                    <td class="border-top-0"><a href="#" class="float-right">View details</a></td>
+                                </tr>
+                                <tr class="border-top-0">
+                                        <td class="border-top-0">Group: support</td>
+                                </tr>
+                                <tr class="border-top-0">
+                                    <td class="border-top-0">Waiting on Feature Request</td>
+                                    <td class="border-top-0 text-right">4238</td>
+                                </tr>
+                                <tr>
+                                    <td>Awaiting customer response</td>
+                                    <td class="text-right">1005</td>
+                                </tr>
+                                <tr>
+                                    <td>Awaiting developer fix</td>
+                                    <td class="text-right">914</td>
+                                </tr>
+                                <tr>
+                                    <td>Pending</td>
+                                    <td class="text-right">281</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
                 </div>
                 <!-- Section 2 -->
                 <div class="col-md-6">
-                    <h4>Tasks</h4>
-                    <p><a href="#">View all</a></p>
-                    <p>Today</p>
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <td>Create new task</td>
-                                <td><span class="badge badge-primary">+</span></td>
-                            </tr>
-                            <tr>
-                                <td>Finish ticket update</td>
-                                <td><span class="badge badge-secondary">urgent</span></td>
-                            </tr>
-                            <tr>
-                                <td>Create new ticket example</td>
-                                <td><span class="badge badge-secondary">new</span></td>
-                            </tr>
-                            <tr>
-                                <td>Update ticket report</td>
-                                <td><span class="badge badge-secondary">default</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="section-box">
+                        <table class="table">
+                            <tbody>
+                                <tr class="border-top-0">
+                                    <td class="border-top-0">Tasks</td>
+                                    <td class="border-top-0"><a href="#" class="float-right">View all</a></td>
+                                </tr>
+                                <tr class="border-top-0">
+                                        <td class="border-top-0">Today</td>
+                                </tr>
+                                <tr class="border-top-0">
+                                    <td class="border-top-0">Create new task</td>
+                                    <td class="border-top-0 text-right"><span class="badge badge-default">+</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Finish ticket update</td>
+                                    <td class="text-right"><span class="badge  badge-urgent">urgent</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Create new ticket example</td>
+                                    <td class="text-right"><span class="badge  badge-new">new</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Update ticket report</td>
+                                    <td class="text-right"><span class="badge  badge-default">default</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-
             <!-- Footer -->
             <footer class="footer">
                 <div class="container">
